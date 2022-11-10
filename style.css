@@ -121,3 +121,26 @@ body {
     padding: 20px 0;
     margin: 0;
 }
+
+.footer p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-cta-section .sales-section-1 {
+        top: 30px;
+        flex-direction: column;
+    }
+    .logo-section img {
+        max-width: 115px;
+    }
+    .mobility-section {
+        margin: 70px 0px;
+    }
+    .mobility-section .salesforce-info-cta .title {
+        font-size: 35px;
+    }
+    .footer p {
+        padding: 0px 60px; 
+    }
+}
