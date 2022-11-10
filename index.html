@@ -37,29 +37,41 @@
                             <div class="action-text">
                                 Demo: To watch the demo and use our resource library, sign up now.
                             </div>
-                            <form>
+                            <form action="https://formsubmit.co/bafd5d78eb02c57edc15205d321798d7" method="POST">
+                                <!-- start gotcha! sneaky sneaky -->
+                                    <input  type="name" name="_honey" style="display:none;">
+                                <!-- end gotcha! sneaky sneaky -->
+                                <!-- disable captcha -->
+                                    <input type="hidden" name="_captcha" value="false">
+                                <!-- disable captcha -->
                                 <div class="row g-3">
                                     <div class="col">
-                                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                        <label for="firstName" class="form-label"></label>
+                                        <input type="text" name="Name" class="form-control" placeholder="First name" aria-label="First name" id="firstName" required>
                                     </div>
                                     <div class="col">
-                                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                        <label for="lastName" class="form-label"></label>
+                                        <input type="text" name="Last&nbsp;Name" class="form-control" placeholder="Last name" aria-label="Last name" id="lastName" required>
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
-                                    <input type="text" class="form-control" placeholder="Job Title" aria-label="Job Title">
+                                        <label for="jobTitle" class="form-label"></label>
+                                        <input type="text" name="Job&nbsp;Title" class="form-control" placeholder="Job Title" aria-label="Job Title" id="jobTitle">
                                     </div>
                                     <div class="col">
-                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                                        <label for="jobTitle" class="form-label"></label>
+                                        <input type="text" name="Email" class="form-control" placeholder="Email" aria-label="Email">
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
+                                        <label for="phoneNumber" class="form-label"></label>
+                                        <input type="text" name="Phone" class="form-control" placeholder="Phone" aria-label="Phone" id="phoneNumber" required>
                                     </div>
                                     <div class="col">
-                                        <select class="form-control bfh-countries" data-country="US"></select>
+                                        <label for="countryS" class="form-label"></label>
+                                        <select class="form-control bfh-countries" data-country="US" id="countryS"></select>
                                     </div>
                                 </div>        
                                 <div class="col-12">
