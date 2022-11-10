@@ -11,6 +11,13 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+.salesforce-info-cta h1 {
+    color: #032d60;
+}
+.salesforce-info-cta p {
+    color: #042d60;
+}
+
 .main-cta-section .sales-section-1 {
     position: relative;
     top: 50px;
@@ -23,7 +30,7 @@ body {
     align-items: center;
 }
 .main-cta-section .salesforce-hero-bg {
-    background: #950F4A;
+    background: #e8ecff;
     width: 100%;
     height: 500px;
     z-index: -1;
@@ -46,7 +53,8 @@ body {
     color: #000;
     background: #F7FAFE;
     padding: 20px;
-    
+    border: 1px solid #0a5cab;
+    border-radius: 5px;
 }
 .main-cta-section .sales-auto-form form {
     margin: 20px 0;
@@ -68,4 +76,48 @@ body {
 
 .main-cta-section .register-notice {
     font-size: 14px;
+}
+
+.mobility-section {
+    text-align: center;
+    margin: 45px 0px;
+}
+
+.mobility-section .salesforce-info-cta .title {
+    color: #032d60;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin: 25px auto;
+}
+
+.logo-section img {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 175px;
+}
+
+.logo-section .item-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    background: #032E61;
+
+    padding: 20px 0;
+    margin: 0;
 }
