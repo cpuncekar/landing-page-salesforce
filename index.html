@@ -44,6 +44,7 @@
                                 <!-- disable captcha -->
                                     <input type="hidden" name="_captcha" value="false">
                                 <!-- disable captcha -->
+                                
                                 <div class="row g-3">
                                     <div class="col">
                                         <label for="firstName" class="form-label"></label>
@@ -57,21 +58,45 @@
                                 <div class="row g-3">
                                     <div class="col">
                                         <label for="jobTitle" class="form-label"></label>
-                                        <input type="text" name="Job&nbsp;Title" class="form-control" placeholder="Job Title" aria-label="Job Title" id="jobTitle">
+                                        <select type="text" name="Job&nbsp;Title" class="form-select" placeholder="Job Title" aria-label="Job Title" id="jobTitle">
+                                            <option selected="true" disabled="disabled" value="">Select Job Title</option>
+                                            <option value="">Automotive Specialist</option>
+                                            <option value="">Automotive Technician</option>
+                                            <option value="">Data Developer</option>
+                                            <option value="">Media</option>
+                                            <option value="">Managment</option>
+                                            <option value="">Sales Consulting</option>
+                                            <option value="">Sales Dealer</option>
+                                            <option value="">Web Developer</option>
+                                            <option value="">Other</option>
+                                        </select>
                                     </div>
                                     <div class="col">
-                                        <label for="jobTitle" class="form-label"></label>
-                                        <input type="text" name="Email" class="form-control" placeholder="Email" aria-label="Email">
+                                        <label for="emailAddress" class="form-label"></label>
+                                        <input type="text" name="Email" class="form-control" placeholder="Email" aria-label="Email" id="emailAddress">
                                     </div>
                                 </div>
                                 <div class="row g-3">
                                     <div class="col">
                                         <label for="phoneNumber" class="form-label"></label>
-                                        <input type="text" name="Phone" class="form-control" placeholder="Phone" aria-label="Phone" id="phoneNumber" required>
+                                        <input type="text" name="Phone" class="form-control" placeholder="Phone" aria-label="Phone" id="phoneNumber" required="
+                                        true">
                                     </div>
                                     <div class="col">
-                                        <label for="countryS" class="form-label"></label>
-                                        <select class="form-control bfh-countries" data-country="US" id="countryS"></select>
+                                        <label for="aboutSelect" class="form-label"></label>
+                                        <select type="text" class="form-select" name="How Did You Hear About Us" placeholder="How Did You Hear About Us" id="aboutSelect">
+                                            <option selected="true" disabled="disabled" value="">How Did You Hear About Us?</option>
+                                            <option value="">Automotive Insider</option>
+                                            <option value="">Autotrader</option>
+                                            <option value="">Auto Media</option>
+                                            <option value="">Auto Show</option>
+                                            <option value="">Blog</option>
+                                            <option value="">Dreamforce Event</option>
+                                            <option value="">News Website Ad</option>
+                                            <option value="">Magazine Ad</option>
+                                            <option value="">Social Media</option>
+                                            <option value="">Other</option>
+                                        </select>
                                     </div>
                                 </div>        
                                 <div class="col-12">
