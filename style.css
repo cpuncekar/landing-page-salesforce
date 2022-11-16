@@ -184,18 +184,26 @@ body {
 }
 .success-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
     margin: 100px auto;
 }
+.success-section img {
+    width: 100%;
+    max-width: 100px;
+}
+.section-right {
+    margin-left: 30px;
+}
 .success-section .success-info-text h1 {
     font-weight: 600;
 }
 .success-info-text p {
     font-size: 18px;
+    margin: 0 0 2px 0;
 }
 .success-section .success-info-text .firstLine {
     font-size: 25px;
@@ -206,5 +214,22 @@ body {
     font-weight: 700;
     font-size: 18px;
     text-decoration: none;
+}
+.success-main .salesforce-logo {
+    margin-top: 20px;
+}
+@media only screen and (max-width: 1076px) {
+    .success-section {
+        flex-direction: column;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .success-main .salesforce-logo {
+        text-align: center;
+    }
+    .section-right {
+        margin-left: 0;
+        padding: 20px;
+    }
 }
 /* success page end ======================= */
