@@ -175,3 +175,36 @@ body {
         padding: 0px 60px; 
     }
 }
+
+/* success page ======================= */
+.success-main {
+    background:#e8ecff;
+    height: 600px;
+    width:100%;
+}
+.success-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+.success-section .success-info-text h1 {
+    font-weight: 600;
+}
+.success-info-text p {
+    font-size: 18px;
+}
+.success-section .success-info-text .firstLine {
+    font-size: 25px;
+    margin: 0 auto;
+}
+.success-section a {
+    color: #0088be;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* success page end ======================= */
